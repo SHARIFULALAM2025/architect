@@ -84,3 +84,12 @@
 .banner-img{
      width: 100%;
 }
+/* responsive media query */
+@media screen and (max-width: 576px) {
+     .navbar, .nav-link{
+          flex-direction: column;
+     }
+     .nav-item{
+          margin: 0.438rem;
+     }
+}
