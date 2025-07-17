@@ -10,6 +10,13 @@
      
     
 }
+.btn-primary{
+     padding: 1.25rem 1.5rem;
+     background-color: #FF900E;
+     color: #FFFFFF;
+     border-radius: .5rem;
+     border: none;
+}
 .header-bg{
      background-color: rgba(255, 144, 14, 0.10);
 }
@@ -52,10 +59,28 @@
 }
 .add-dark-2{
      font-weight: 500;
-     font-size: 18px;
+     font-size: 1.125rem;
 
 }
 .brand{
      font-weight: 700;
-     font-size: 45px;
+     font-size: 2.813rem;
+}
+/* banner related style */
+.banner-div{
+     max-width: 862px;
+     margin: 0 auto;
+     text-align: center;
+     margin-bottom: 3.125rem;
+}
+.banner, .banner-div, .banner-title{
+     font-size: 4rem;
+     font-weight: bold;
+}
+.banner, .banner-div, .banner-des{
+     font-size: 1rem;
+    
+}
+.banner-img{
+     width: 100%;
 }
