@@ -17,6 +17,9 @@
      border-radius: .5rem;
      border: none;
 }
+.common{
+     width: 50%;
+}
 .header-bg{
      background-color: rgba(255, 144, 14, 0.10);
 }
@@ -92,4 +95,19 @@
      .nav-item{
           margin: 0.438rem;
      }
+}
+
+/* feature-section */
+.feature-section{
+     max-width: 1000px;
+     margin: 0 auto;
+}
+.feature-1{
+     display: grid;
+     grid-template-columns: repeat(2 ,1fr);
+}
+.majority{
+     display: grid;
+     grid-template-columns: repeat(2 ,1fr);
+     align-items: center;
 }
