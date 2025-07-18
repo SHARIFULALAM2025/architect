@@ -112,21 +112,22 @@
 
 /* feature-section */
 .feature-section{
-     max-width: 1000px;
+     max-width: 1440px;
      margin: 0 auto;
 }
 .feature-1{
      display: grid;
      grid-template-columns: repeat(2 ,1fr);
-     gap: 1.5rem;
+     gap: 1rem;
     
 }
 .majority{
      display: grid;
      grid-template-columns: repeat(2 ,1fr);
      align-items: center;
-     gap: 4.563rem;
-      margin: 8.125rem 0;
+     gap:7rem;
+     margin-left: 110px;
+     margin-right: 110px;
 }
 .feature-1, figure{
      margin: 0;
@@ -161,10 +162,17 @@
 .available{
      display: flex;
      justify-content: space-between;
-     gap: 140px;
+     gap: 50px;
+     margin-left: 100px;
+     margin-right: 100px;
      
 }
+.picture-1{
+     width: 500px;
+     height: auto;
+    
 
+}
 .suffered{
      border-left: 5px solid rgb(255, 144, 14);
      padding-left: 21px;
@@ -178,10 +186,7 @@
      font-size: 1rem;
      font-weight: 400;
 }
-.available{
-     padding-left: 105px;
-     padding-left: 105px;
-}
+
 .card{
      padding: 30px;
      border-radius: 8px;
@@ -209,3 +214,106 @@ background: rgb(255, 255, 255);
      font-size: 4.063rem;
      font-weight: 700;
 }
+.suffered-3{
+     /* background-color: #FF900E; */
+     padding: 35px 32px;
+     border: none;
+   
+     color: #FFFFFF;
+     background-color: #FF900E;
+     margin-top: -50px;
+     margin-left: -40px;
+     border-radius: 8px;
+    
+}
+
+
+.figure-image-1{
+     max-width: 708px;
+     height: auto;
+}
+/* second */
+@media screen and (max-width:576px){
+     .available{
+          flex-direction: column;
+          margin-left: 0;
+          margin-right: 0;
+     }
+     .picture-1{
+          width: 100%;
+     }
+     .suffered-3{
+      margin: 0;
+      padding: 20px 25px;
+     border: none;
+     color: #FFFFFF;
+     background-color: #FF900E;
+         
+     }
+     #suffered-4{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+     }
+}
+/*  */
+.many{
+     margin-left: 110px;
+}
+.suffered-1{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     margin-top: 100px;
+     grid-row: 124px;
+     margin-left: 120px;
+     margin-right: 120px;
+}
+.passages{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+}
+/*  */
+.Our-Sp{
+     text-align: center;
+     margin-top: 120px;
+}
+
+/*  */
+.facebook-img{
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+   margin-left: 110px;
+   margin-right: 110px;
+     align-items: center;
+     text-align: center;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     gap: 120px;
+}
+.All-rights{
+     text-align: center;
+     background-color: rgba(255, 244, 231, 1.00);
+     padding: 20px;
+     margin-left: 110px;
+     margin-right: 110px;
+}
+.fast1-img{
+     color: rgba(46, 189, 89, 1.00);
+}
+.fast2-img{
+     color: rgba(0, 0, 0, 1.00) rgba(243, 151, 27, 1.00);
+}
+.fast3-img{
+     color: rgba(55, 128, 255, 1.00) rgba(56, 177, 55, 1.00) rgba(250, 57, 19, 1.00) rgba(252, 189, 6, 1.00);
+}
+.fast1-img{
+     color:rgba(0, 0, 0, 1.00) rgba(246, 211, 48, 1.00) ;
+}
+.fast1-img{
+     color: rgba(0, 0, 0, 1.00) rgba(10, 207, 131, 1.00) rgba(26, 188, 254, 1.00);
+
+}
+/* footer */
