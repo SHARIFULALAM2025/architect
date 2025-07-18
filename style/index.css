@@ -71,7 +71,7 @@
      justify-content: space-between;
      align-items: center;
 }
-.navbar, .banner{
+.banner{
      max-width: 1440px;
      margin: 0 auto;
 }
@@ -155,4 +155,57 @@
      .majority, .variations, .btn-primary{
           margin: .6rem;
      }
+}
+/* year */
+
+.available{
+     display: flex;
+     justify-content: space-between;
+     gap: 140px;
+     
+}
+
+.suffered{
+     border-left: 5px solid rgb(255, 144, 14);
+     padding-left: 21px;
+}
+.para-1{
+     font-size:2.813rem;
+     margin: 0px;
+     font-weight: 700;
+}
+.para-2{
+     font-size: 1rem;
+     font-weight: 400;
+}
+.available{
+     padding-left: 105px;
+     padding-left: 105px;
+}
+.card{
+     padding: 30px;
+     border-radius: 8px;
+margin-top: 20px;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+}
+.card-1{
+     font-size:1.25rem ;
+     font-weight:600 ;
+
+}
+.Experience{
+     padding: 20px ;
+     border-radius: 8px;
+     background-color:#FF900E;
+    border: none;
+    color: #FFFFFF;
+    margin-left: -70px;
+    margin-top: -77px;
+    width: 100;
+    height: 120px;
+}
+.text-5{
+     font-size: 4.063rem;
+     font-weight: 700;
 }
